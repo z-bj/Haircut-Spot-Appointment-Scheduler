@@ -4,4 +4,4 @@
 
 ### For this project, I had to create an interactive Bash program that uses PostgreSQL to track the customers and appointments of a salon.
 
-### [User story]()
+### [User story](https://github.com/z-bj/Haircut-Spot-Appointment-Scheduler/blob/master/User_story.md)
