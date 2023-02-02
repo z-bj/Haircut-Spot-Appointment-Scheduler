@@ -1,4 +1,4 @@
-![banner](https://github.com/z-bj/Haircut-Spot-Appointment-Scheduler/blob/master/HAIRCUT_SPOT.png)
+![banner](https://github.com/z-bj/Haircut-Spot-Appointment-Scheduler/blob/master/Haircut_Spot_banner.webp)
 
 # HairCut-Spot-Appointment-Scheduler
 
