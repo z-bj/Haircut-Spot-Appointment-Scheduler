@@ -2,6 +2,34 @@
 
 ![vim](https://img.shields.io/badge/Vim-019733.svg?style=for-the-badge&logo=Vim&logoColor=white)![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)![postgreSQL](https://camo.githubusercontent.com/281c069a2703e948b536500b9fd808cb4fb2496b3b66741db4013a2c89e91986/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506f737467726553514c2d3331363139323f7374796c653d666f722d7468652d6261646765266c6f676f3d706f737467726573716c266c6f676f436f6c6f723d7768697465)
 
+
+
+
+
+This is a Bash script for booking appointments at Haircut spot Salon.
+
+## Usage
+
+To run the script, simply execute it in the command line with `./salon.sh`. The script will then guide you through the process of selecting a service, providing your phone number, and selecting a time for your appointment.
+
+## Requirements
+
+-   Bash
+-   PostgreSQL
+
+## Instructions
+
+1.  Clone this repository
+2.  Set up your PostgreSQL database with the following tables:
+    -   `services`: with columns `service_id` and `name`
+    -   `customers`: with columns `customer_id`, `phone`, and `name`
+    -   `appointments`: with columns `appointment_id`, `service_id`, `customer_id`, and `time`
+3.  Update the `PSQL` variable in the script to reflect your PostgreSQL configuration (username and database name)
+4.  Run the script and enjoy the convenience of booking appointments from the command line!
+
+
+
+
 ``` bash
 #!/bin/bash
 
@@ -93,3 +121,8 @@ MAIN_MENU
 ```
 
 ### [User story](https://github.com/z-bj/Haircut-Spot-Appointment-Scheduler/blob/master/User_story.md)
+
+## Disclaimer
+
+This script was created as part of a coding challenge and is not intended for actual use in a production environment. Use at your own risk.
+
